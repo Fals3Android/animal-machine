@@ -2,15 +2,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/chosen.css">
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/skeleton.css">
-        <link rel="stylesheet" href="css/prism.css">
         <title>Animal Machine</title>
     </head>
-<body style="height:100%">
+<body style="background-color:#7A4728">
     <div class="container six columns offset-by-three columns" style="background-color:#A52A2A">
     <h1 >The Animal Machine</h1>
     <div class="twelve columns">
@@ -30,14 +26,10 @@
     </form>
     </div> 
 </div>
-<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-<script src="js/chosen.jquery.min.js" type="text/javascript"></script>
-<script src="js/prism.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.2/chosen.jquery.min.js"></script>
 <script>
-    $(function(){
-        $(".chzn-select").chosen();
-    });
+    $(function(){ $(".chzn-select").chosen(); });
 </script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 
-	$animals = ['OX', 'TIGER', 'HARE', 'DRAGON', 'SNAKE', 'HORSE', 'SHEEP', 'MONKEY', 'ROOSTER', 'DOG', 'PIG', 'RAT'];
-    $yrsMin = 1901;
-    $yrsMax = 2025;
+	$animals = ['ox', 'tiger', 'dragon', 'snake', 'horse', 'sheep', 'monkey', 'rooster', 'dog', 'pig', 'rat'];
+    $yrsMin = 1900;
+    $yrsMax = date("Y");
     $countAnimals = 0;
